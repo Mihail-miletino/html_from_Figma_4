@@ -795,6 +795,12 @@ input{
     .sixth_block_button_wrapper{
         position: relative;
         left: 4px;
+    } 
+    .sixth_block_button_wrapper_wrapper{
+        flex: 0 1 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -805,6 +811,12 @@ input{
     .sixth_block_button_wrapper{
         position: relative;
         left: 4px;
+    } 
+    .sixth_block_button_wrapper_wrapper{
+        flex: 0 1 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
