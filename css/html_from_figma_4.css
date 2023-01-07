@@ -718,6 +718,7 @@ input{
 .sixth_block_form_and_button_wrapper{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .sixth_block_input{
