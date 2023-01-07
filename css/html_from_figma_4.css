@@ -772,20 +772,41 @@ input{
 }
 
 @media (max-width: 472px){
-    .sixth_block_input{
-        width: 200px;
+    .form_body{
+        flex: 0 1 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-}
-
-@media (max-width: 420px){
+    .sixth_block_input{
+        width: 300px;
+    }
+    .sixth_block_button_wrapper_wrapper{
+        flex: 0 1 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .sixth_block_button_wrapper{
-        width: 100px;
+        position: relative;
+        left: 10px;
     }
 }
 
-@media (max-width: 362px){
+@media (max-width: 414px){
+    .sixth_block_button_wrapper{
+        position: relative;
+        left: 4px;
+    }
+}
+
+@media (max-width: 350px){
     .sixth_block_input{
-        width: 150px;
+        width: 220px;
+    }
+    .sixth_block_button_wrapper{
+        position: relative;
+        left: 4px;
     }
 }
 
