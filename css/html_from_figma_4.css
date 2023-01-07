@@ -793,8 +793,8 @@ input{
 
 @media (max-width: 414px){
     .sixth_block_button_wrapper{
-        //position: relative;
-        //left: 4px;
+        position: relative;
+        left: 4px;
     } 
     .sixth_block_button_wrapper_wrapper{
         flex: 0 1 100%; 
@@ -809,8 +809,8 @@ input{
         width: 220px;
     }
     .sixth_block_button_wrapper{
-        //position: relative;
-        //left: 4px;
+        position: relative;
+        left: 4px;
     } 
     .sixth_block_button_wrapper_wrapper{
         flex: 0 1 100%; 
